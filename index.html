@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Doctor's Chamber</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="style.css"/>
+</head>
+<body>
+    <!-- xs - extra small
+    md - medium 
+    lg - large
+    xl - extra large -->
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <a class="navbar-brand" href="#">Doctor's Chamber</a>
+        <button class="navbar-toggle" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav"
+            aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav"> 
+                <li class="nav-item active">
+                    <a class="nav-link" href="index.html">Home</a>
+                </li>
+
+                <li class="nav-item">
+                    <a class="nav-link" href="doctors.html">Doctors</a>
+                </li>
+
+                <li class="nav-item">
+                    <a class="nav-link" href="contact.html">Contact</a>
+                </li>
+
+                <li class="nav-item">
+                    <a class="nav-link" href="gallery.html">Gallery</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+
+    <div class="container mt-5">
+        <h1> Welcome to this Doctor's Chamber</h1>
+        <p> Please find the Doctor's Details for your treatment!</p>
+
+        <button id="showDoctors" class="btn btn-primary"> Show Doctors </button>
+
+        <div id="doctorsList" style="display: none; margin-top: 20px;">
+            <ul>
+                <li> Dr. Raj Chopra - Cardiologist </li>
+                <li> Dr. Raj Chopra - Cardiologist </li>
+                <li> Dr. Raj Chopra - Cardiologist </li>
+                <li> Dr. Raj Chopra - Cardiologist </li>
+                <li> Dr. Raj Chopra - Cardiologist </li>
+                <li> Dr. Raj Chopra - Cardiologist </li>
+                <li> Dr. Raj Chopra - Cardiologist </li>
+            </ul>
+        </div>
+    </div>
+    
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.bundle.min.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>
